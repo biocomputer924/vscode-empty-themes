@@ -1,0 +1,31 @@
+{
+	"name": "vscode-empty-themes",
+	"description": "Empty Themes for Visual Studio Code",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/likebot0/vscode-empty-themes.git"
+	},
+	"displayName": "Empty Themes",
+	"publisher": "likebot",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Empty Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/empty-dark.json"
+			},
+			{
+				"label": "Empty Light",
+				"uiTheme": "vs",
+				"path": "./themes/empty-light.json"
+			}
+		]
+	}
+}
